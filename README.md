@@ -1,4 +1,4 @@
-# React-NestJS-UserManagement-CRUD
+# React-Spring-UserManagement-CRUD
 
 A full-stack authentication and user management application built with React, Spring, and PostgreSQL.
 
@@ -18,7 +18,7 @@ cd backend
 ./scripts/start.sh
 
 # Or start specific services
-./scripts/start.sh --backend-only     # Only NestJS API
+./scripts/start.sh --backend-only     # Only Spring API
 ./scripts/start.sh --postgres-only    # Only database
 ./scripts/start.sh --pgadmin-only     # Only pgAdmin
 ```
