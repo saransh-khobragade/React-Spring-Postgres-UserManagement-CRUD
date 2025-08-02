@@ -35,7 +35,7 @@ public class User {
     @Column(nullable = true)
     private Integer age;
     
-    @Column(nullable = false)
+    @Column(name = "is_active", nullable = false)
     private Boolean isActive = true;
     
     @CreationTimestamp
