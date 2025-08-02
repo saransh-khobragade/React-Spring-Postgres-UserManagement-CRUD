@@ -1,6 +1,6 @@
 # React-NestJS-UserManagement-CRUD
 
-A full-stack authentication and user management application built with React, NestJS, and PostgreSQL.
+A full-stack authentication and user management application built with React, Spring, and PostgreSQL.
 
 ## 🚀 Quick Start
 
@@ -9,7 +9,7 @@ A full-stack authentication and user management application built with React, Ne
 ```bash
 cd backend
 # just want to start backend local
-yarn start
+./gradlew bootRun
 ./scripts/start.sh --postgres-only 
 ./scripts/start.sh --pgadmin-only 
 
@@ -35,4 +35,4 @@ yarn dev
 - **Frontend**: http://localhost:5173
 - **API**: http://localhost:8080
 - **API Docs**: http://localhost:8080/api
-- **pgAdmin**: http://localhost:5050 (admin@admin.com / admin) 
+- **pgAdmin**: http://localhost:5050 (database password : password) 
